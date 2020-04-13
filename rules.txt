@@ -1,0 +1,26 @@
+S      , NP VP     , 0.5
+S      , VP        , 0.2
+S      , NP VP_PP  , 0.2
+S      , VP PP     , 0.1
+VP_PP  , VP PP     , 1.0
+NP     , DT NN     , 0.5
+NP     , Nominal NN, 0.2
+NP     , NN        , 0.3
+VP     , VB NP     , 0.6
+VP     , VB PP     , 0.2
+VP     , VB NP_PP  , 0.1
+VP     , VB        , 0.1
+NP_PP  , NP PP     , 1.0
+PP     , IN NP     , 1.0
+DT     , 'a'       , 0.5
+DT     , 'an'      , 0.5
+NN     , 'time'    , 0.2
+NN     , 'flies'   , 0.2
+NN     , 'arrow'   , 0.2
+NN     , 'fruit'   , 0.2
+NN     , 'banana'  , 0.2
+VB     , 'time'    , 0.3
+VB     , 'flies'   , 0.4
+VB     , 'like'    , 0.3
+IN     , 'like'    , 1.0
+Nominal, 'fruit'   , 1.0
